@@ -27,7 +27,7 @@ const checkFields = (e) => {
     resultField.style.backgroundColor = "var(--red)";
     } else {
       resultField.innerText = `Valid US number: ${number}`;
-    resultField.style.backgroundColor = "var(--red)";
+    resultField.style.backgroundColor = "var(--green)";
     }
 }
 
