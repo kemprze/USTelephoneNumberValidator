@@ -6,7 +6,7 @@ const resultField = document.getElementById("results-div")
 
 // declare functions
 const isValid = (number) => {
-  const testRegex = /^1?\s?\(?[0-9]{3}\)?(\s|-)?[0-9]{3}(\s|-)?[0-9]{4}$/;
+  const testRegex = /^1?\s*(\(\d{3}\)|\d{3})[-\s]?\d{3}[-\s]?\d{4}$/;
   return testRegex.test(number)
 }
 
